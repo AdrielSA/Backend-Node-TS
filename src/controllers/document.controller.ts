@@ -22,7 +22,7 @@ const processFile = async (req: Request, res: Response) => {
 
 const getFile = async (_req: Request, res: Response) => {
     try {
-        res.render('index', { title: 'Backend Test in node' })
+        res.render('index', { title: 'Backend test in node' })
     } catch (error) {
         console.log(error)
         res.status(serverErrorStatus).send('A server side error occurred.')

@@ -1,5 +1,5 @@
 export interface Document {
-    Id: string,
+    DocumentId: string,
     Title: string,
     Size: number,
     CreationDate: Date

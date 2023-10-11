@@ -2,7 +2,7 @@ import 'dotenv/config'
 import express from 'express'
 import path from 'path'
 import { router } from './routes/document.route'
-import dbConnection from './config/mongo'
+import dbConnection from './middlewares/mongo'
 
 const port = process.env.PORT
 const app = express()

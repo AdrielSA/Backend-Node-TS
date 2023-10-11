@@ -3,7 +3,7 @@ import { Document } from '../interfaces/document.interface'
 
 const DocumentSchema = new Schema<Document>(
     {
-        Id: {
+        DocumentId: {
             type: String,
             required: true
         },
